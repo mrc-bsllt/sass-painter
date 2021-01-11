@@ -1,4 +1,14 @@
+@mixin containerSetup ($width) {
+  width: $width;
+  margin: auto;
+}
 @mixin height-lineHeight-Setup ($height) {
   height: calc(#{$height} / 2);
   line-height: calc(#{$height} / 2);
+}
+@mixin backgroundSize {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }

@@ -31,6 +31,16 @@ li.drop-down-item::after {
   vertical-align: middle;
 }
 
+h3 {
+  font-size: 29.5px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 22.5px;
+  font-weight: 400;
+}
+
 .header-top {
   height: 95px;
   background-color: #000000;
@@ -80,4 +90,36 @@ li.drop-down-item::after {
 }
 .header-top .container #nav-list li a {
   color: #ffffff;
+}
+
+.header-middle {
+  height: 460px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+}
+.header-middle .container {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  margin: auto;
+  height: 100%;
+  padding-top: 20px;
+}
+.header-middle .container .text-block {
+  height: 100%;
+  padding: 30px 0;
+  margin-right: 90px;
+  color: #ffffff;
+}
+.header-middle .container .text-block h4 {
+  margin: 20px 0;
+}
+.header-middle .container .black-side {
+  width: 400px;
+  height: 100%;
+  background-color: #000000;
 }
