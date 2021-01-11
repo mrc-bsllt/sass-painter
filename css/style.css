@@ -4,3 +4,50 @@
   box-sizing: border-box;
   font-family: "Lora", serif;
 }
+
+:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-top {
+  height: 95px;
+  background-color: #000000;
+}
+.header-top li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.header-top .container {
+  width: 70%;
+  margin: auto;
+}
+.header-top .container .contact {
+  height: calc(95px / 2);
+  line-height: calc(95px / 2);
+  text-align: right;
+}
+.header-top .container .contact i {
+  font-size: 15px;
+  color: #009CFF;
+  vertical-align: middle;
+}
+.header-top .container .contact a {
+  font-size: 12px;
+  color: #989898;
+}
+.header-top .container .contact a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.header-top .container nav {
+  height: calc(95px / 2);
+  line-height: calc(95px / 2);
+}
