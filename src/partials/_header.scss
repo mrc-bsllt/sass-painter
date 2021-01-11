@@ -2,7 +2,6 @@
   height: $headerHeight;
   background-color: #000000;
   li {
-    display: inline-block;
     padding: 0 10px;
   }
   .container {
@@ -18,15 +17,32 @@
       }
       a {
         font-size: 12px;
-        color: #989898;
+        color: $greyStandardColor;
         &:hover {
           color: #ffffff;
           text-decoration: underline;
         }
       }
     }
-    nav {
+    #nav-list {
       @include height-lineHeight-Setup($headerHeight);
+      li {
+        padding: 0 25px;
+        cursor: pointer;
+        &:not(:first-child):hover {
+          background-color: #f1f1f1;
+        }
+        &:hover a {
+          color: #000000;
+        }
+        img {
+          width: 90px;
+          vertical-align: sub;
+        }
+        a {
+          color: #ffffff;
+        }
+      }
     }
   }
 }
