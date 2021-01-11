@@ -41,6 +41,12 @@ h4 {
   font-weight: 400;
 }
 
+h5 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
 .header-top {
   height: 95px;
   background-color: #000000;
@@ -170,4 +176,35 @@ h4 {
   width: 400px;
   height: 100%;
   background-color: #000000;
+}
+
+main {
+  height: 500px;
+  background-color: red;
+}
+
+footer .footer-top {
+  display: flex;
+  justify-content: center;
+  padding: 70px 0;
+  background-color: #ffffff;
+}
+footer .footer-top .footer-block {
+  width: 200px;
+  margin: 0 50px;
+}
+footer .footer-top .footer-block li {
+  display: block;
+  margin: 5px 0;
+}
+footer .footer-top .footer-block a {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+footer .footer-top .footer-block a:hover {
+  text-decoration: underline;
+}
+footer .footer-bottom {
+  height: 100px;
+  background-color: #333333;
 }
